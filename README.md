@@ -9,15 +9,18 @@ Minimal, bilingual personal website built with Next.js.
 - next/font (Geist)
 
 ## Run locally
-`bash`
-`npm install`
-`npm run dev`
+```bash
+npm install
+npm run dev
+```
 
 Open http://localhost:3000
 
 ## Build
-`npm run build`
-`npm run start`
+```bash
+npm run build
+npm run start
+```
 
 ## Project structure
 
@@ -35,9 +38,9 @@ src/
 
 ## Editing content
 
-Work & Path entries → `src/content/`
-Images → `public/images/`
-Layout & sections → `app/page.tsx`
+- Work & Path entries → `src/content/`
+- Images → `public/images/`
+- Layout & sections → `app/page.tsx`
 
 ## Commit convention
 
@@ -58,6 +61,7 @@ This project follows Conventional Commits:
 
 ## Local Setup
 
-`bash`
-`npm install`
-`npm run dev`
+```bash
+npm install
+npm run dev
+```
