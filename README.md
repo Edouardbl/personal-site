@@ -2,87 +2,62 @@
 
 Minimal, bilingual personal website built with Next.js.
 
----
-
 ## Stack
-
 - Next.js (App Router)
 - TypeScript
 - Tailwind CSS
 - next/font (Geist)
 
----
-
 ## Run locally
-
-bash
-npm install
-npm run dev
+`bash`
+`npm install`
+`npm run dev`
 
 Open http://localhost:3000
 
 ## Build
-npm run build
-npm run start
+`npm run build`
+`npm run start`
 
 ## Project structure
 
 app/
-
-layout.tsx
-
-page.tsx
-
-globals.css
+- layout.tsx
+- page.tsx
+- globals.css
 
 public/
-
-images/
+- images/
 
 src/
-
-components/
-
-content/
+- components/
+- content/
 
 ## Editing content
 
-Work & Path entries → src/content/
-
-Images → public/images/
-
-Layout & sections → app/page.tsx
+Work & Path entries → `src/content/`
+Images → `public/images/`
+Layout & sections → `app/page.tsx`
 
 ## Commit convention
 
 This project follows Conventional Commits:
-
-feat: new feature
-
-fix: bug fix
-
-style: visual changes
-
-refactor: code restructuring
-
-docs: documentation
-
-chore: config / tooling
-
----
+- `feat`: new feature
+- `fix`: bug fix
+- `style`: visual changes
+- `refactor`: code restructuring
+- `docs`: documentation
+- `chore`: config / tooling
 
 ## Stack
-
 - Next.js (App Router)
 - TypeScript
 - Tailwind CSS
 - next/font (Geist)
 - Deployed on Vercel
 
----
-
 ## Local Setup
 
-bash
-npm install
-npm run dev
+`bash`
+`npm install`
+`npm run dev`
