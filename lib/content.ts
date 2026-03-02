@@ -112,7 +112,7 @@ const en: SiteContent = {
         company: "Zeway",
         metric: "Conversion +6pts · Time-to-market −40%",
         description:
-          "Structured a product organization across 7 cities. Led 4 cross-functional teams on a shared OKR roadmap — from churn management to usage-based pricing and a second-hand sales channel built from scratch.",
+          "Structured a product organization across 7 cities. Led 4 cross-functional teams on a shared OKR roadmap - from churn management to usage-based pricing and a second-hand sales channel built from scratch.",
         tags: "E-mobility · Org design · Growth",
         period: "2024–2025",
       },
@@ -346,8 +346,8 @@ const fr: SiteContent = {
   },
 
   footer: {
-    copy: "© 2025 Edouard Blondeau",
-    ai: "Conçu avec attention et un peu d'aide de Claude.",
+    copy: "© 2026 Edouard Blondeau",
+    ai: "Conçu avec soin et un peu d'aide de Claude.",
   },
 }
 
