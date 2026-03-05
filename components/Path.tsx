@@ -1,3 +1,14 @@
+"use client"
+
+import { motion } from "framer-motion"
+
+const fadeUp = {
+  initial: { opacity: 0, y: 28 },
+  whileInView: { opacity: 1, y: 0 },
+  viewport: { once: true, margin: "-80px" },
+  transition: { duration: 0.6, ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number] },
+}
+
 interface RoleItem {
   title: string
   company: string
@@ -23,7 +34,7 @@ interface PathProps {
 export default function Path({ path }: PathProps) {
   return (
     <section id="path" className="px-6 md:px-12 py-24 md:py-32">
-      <div className="max-w-[1080px] mx-auto">
+      <motion.div className="max-w-[1080px] mx-auto" {...fadeUp}>
         <p className="text-[11px] uppercase tracking-[0.14em] text-[#A8A89A] mb-12">
           {path.label}
         </p>
@@ -63,7 +74,7 @@ export default function Path({ path }: PathProps) {
             {path.teaching.description}
           </p>
         </div>
-      </div>
+      </motion.div>
     </section>
   )
 }

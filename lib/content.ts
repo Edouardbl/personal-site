@@ -140,17 +140,18 @@ const en: SiteContent = {
     intro: "Not a framework. A way of working.",
     pillars: [
       {
+        title: "Every bet has a hypothesis.",
+        body: "Roadmaps should answer a business question. I work backwards from outcomes, keep teams anchored to what matters, and make results transparent to the full organization.",
+      },
+      {
         title: "Build the system, not just the feature.",
-        body: "Strong product organizations ship with rhythm. I put discovery, delivery, and prioritization processes in place before writing a roadmap; to make progress visible and decisions defensible.",
+        body: "Strong product organizations ship with rhythm. I put discovery, delivery, and prioritization processes in place alongside writing a roadmap;\nto make progress visible and decisions defensible.",
       },
       {
         title: "Grow the people who grow the product.",
         body: "I coach PMs to own their work end-to-end: with the rigor to say no, the clarity to explain why, and the confidence to align upward. My job is to give context, protect focus, and get out of the way.",
       },
-      {
-        title: "Every bet has a hypothesis.",
-        body: "Roadmaps should answer a business question. I work backwards from outcomes, keep teams anchored to what matters, and make results transparent to the full organization.",
-      },
+  
     ],
   },
 
@@ -188,7 +189,7 @@ const en: SiteContent = {
     ],
     teaching: {
       title: "Guest Lecturer",
-      org: "Paris 1 Panthéon-Sorbonne & Paris Dauphine",
+      org: "Paris 1 Panthéon-Sorbonne & Paris Dauphine Universities",
       period: "2018–present",
       description:
         "Designed and taught courses in Product Management, Growth-Hacking & No-Code, and Design Thinking. Mentored 300+ MSc students.",
@@ -198,7 +199,7 @@ const en: SiteContent = {
   about: {
     label: "About",
     short:
-      "I've spent ten years building product teams and systems — from zero-to-one to scaling. What drives me is the intersection of clarity and execution: getting teams aligned, products shipped, and making sure both the business and the user benefit. I also teach product management and growth at Sorbonne and Dauphine — because the best way to understand something is to be able to explain it.",
+      "I've spent ten years building product, teams and systems; from zero to scaling. What drives me is the intersection of clarity and execution: getting teams aligned, products shipped, and making sure both the business and the user benefit. I also teach product management and growth at Panthéon-Sorbonne and Dauphine universities because the best way to understand something is to be able to explain it.",
     details:
       "Full-stack developer certificate (Le Wagon, 2019). French (native) · English (C1) · Spanish (B2).",
     interests: "Cycling. Boxing. Ski touring. Guitar — 16 years.",

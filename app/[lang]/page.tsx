@@ -3,7 +3,7 @@ import type { Lang } from "@/lib/content"
 import Nav from "@/components/Nav"
 import Hero from "@/components/Hero"
 import Work from "@/components/Work"
-import EditorialStrip from "@/components/EditorialStrip"
+// import EditorialStrip from "@/components/EditorialStrip"
 import Philosophy from "@/components/Philosophy"
 import Path from "@/components/Path"
 import About from "@/components/About"
@@ -29,7 +29,7 @@ export default async function Page({
       <main>
         <Hero hero={c.hero} />
         <Work work={c.work} />
-        <EditorialStrip />
+        {/* <EditorialStrip /> */}
         <Philosophy philosophy={c.philosophy} />
         <Path path={c.path} />
         <About about={c.about} />
