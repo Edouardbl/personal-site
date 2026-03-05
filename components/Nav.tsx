@@ -21,8 +21,6 @@ export default function Nav({ nav, lang }: NavProps) {
     return () => window.removeEventListener("scroll", onScroll)
   }, [])
 
-  const otherLang = lang === "en" ? "fr" : "en"
-
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-5 flex items-center justify-between transition-all duration-300 ${
@@ -49,24 +47,25 @@ export default function Nav({ nav, lang }: NavProps) {
           </a>
         ))}
 
-        <div className="flex items-center gap-2 text-[12px] tracking-[0.05em]">
-          <span
-            className={
+        <div className="flex items-center gap-1 text-[12px] tracking-[0.05em]">
+          <Link
+            href="/en"
+            className={`px-2 py-1 transition-colors duration-150 ${
               lang === "en"
                 ? "text-[#1C1C1A] font-medium"
-                : "text-[#A8A89A]"
-            }
+                : "text-[#A8A89A] hover:text-[#6B6B63]"
+            }`}
           >
             EN
-          </span>
+          </Link>
           <span className="text-[#E4E4DC]">·</span>
           <Link
-            href={`/${otherLang}`}
-            className={
+            href="/fr"
+            className={`px-2 py-1 transition-colors duration-150 ${
               lang === "fr"
                 ? "text-[#1C1C1A] font-medium"
-                : "text-[#A8A89A] hover:text-[#6B6B63] transition-colors duration-150"
-            }
+                : "text-[#A8A89A] hover:text-[#6B6B63]"
+            }`}
           >
             FR
           </Link>
