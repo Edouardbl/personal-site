@@ -112,25 +112,25 @@ const en: SiteContent = {
         company: "Zeway",
         metric: "Conversion +6pts · Time-to-market −40%",
         description:
-          "Structured a product organization across 7 cities. Led 4 cross-functional teams on a shared OKR roadmap - from churn management to usage-based pricing and a second-hand sales channel built from scratch.",
-        tags: "E-mobility · Org design · Growth",
+          "Structured a product organization across 7 cities and aligned 4 cross-functional teams around a shared OKR roadmap.\nLed key product initiatives across pricing, churn reduction and marketplace expansion — including usage-based pricing and a second-hand sales channel built from scratch on Shopify in < 1 week.\nLeveraged data-driven discovery and AI-assisted user feedback analysis to accelerate product decisions and improve conversion.",
+        tags: "e-Mobility · Pricing model · Product org",
         period: "2024–2025",
       },
       {
         company: "Choose",
         metric: "Day-1 retention +5pts · Funnel conversion +2pts",
         description:
-          "Built and led the 7-person mobile product team. Deployed the app in the US market, established a continuous discovery-delivery process, and improved core retention and conversion metrics.",
-        tags: "E-commerce · Mobile · Retention",
+          "Built and scaled the mobile product team (7 people) and introduced a continuous discovery-delivery process.\nExpanded the mobile app to the US market while improving core product loops across activation, retention and conversion.\nData insights and AI-assisted experimentation helped optimize the funnel and strengthen user engagement.",
+        tags: "E-commerce · Growth · Retention",
         period: "2022–2024",
       },
       {
         company: "Salomon",
-        metric: "30% of 150K dormant users reactivated - first month",
+        metric: "30% dormant users reactivated · 150K users targeted",
         description:
-          "Designed and launched a US loyalty program targeting 150K dormant users. Coordinated cross-team effort across Amer Sports group and Salomon, integrating omnichannel data into customer profiles.",
-        tags: "Sports & lifestyle · Loyalty · US market",
-        period: "Via Wivoo · 2020–2022",
+          "Designed and launched a US loyalty program targeting 150K dormant users.\nWorked across Amer Sports teams to connect omnichannel data into unified customer profiles and enable personalized engagement.\n30% of inactive users were reactivated within the first month.",
+        tags: "Sports retail · Loyalty · Customer data",
+        period: "2022",
       },
     ],
   },
@@ -208,7 +208,7 @@ const en: SiteContent = {
   contact: {
     label: "Contact",
     headline: "Let's talk.",
-    sub: "If you're building something ambitious and need someone to structure the product side — I'd like to hear about it.",
+    sub: "If you're building something ambitious and need someone to structure the product side  I'd like to hear about it.",
     email: "edouardbl@gmail.com",
     linkedinHandle: "edouard-blondeau",
     linkedinLabel: "linkedin.com/in/edouard-blondeau",
@@ -232,9 +232,9 @@ const fr: SiteContent = {
   },
 
   hero: {
-    headline: "Un impact concret, construit par le produit et par les équipes.",
+    headline: "Impact business, porté par le produit et les équipes.",
     subline:
-      "Product leader basé à Paris. 10 ans à structurer des organisations produit — mobilité, e-commerce, conseil.",
+      "Transformer la stratégie produit en impact business concret.",
   },
 
   work: {
@@ -245,44 +245,44 @@ const fr: SiteContent = {
         company: "Zeway",
         metric: "Conversion +6pts · Time-to-market −40%",
         description:
-          "Structuré l'organisation produit sur 7 villes. Piloté 4 équipes cross-fonctionnelles sur un roadmap OKR partagé — gestion du churn, nouveau modèle tarifaire et canal de vente secondaire construit de zéro.",
-        tags: "E-mobilité · Org design · Croissance",
+          "Structuration de l'organisation produit sur 7 villes et alignement de 4 équipes cross-fonctionnelles autour d'une roadmap OKR transverse.\nPilotage de plusieurs chantiers structurants — pricing à l'usage, réduction du churn et lancement d'un canal de revente de scooters d'occasion sur Shopify en < 1 semaine.\nApproche data-driven et analyse de feedback utilisateurs assistée par IA pour accélérer les décisions produit et améliorer la conversion.",
+        tags: "e-Mobility · Pricing model · Product org",
         period: "2024–2025",
       },
       {
         company: "Choose",
-        metric: "Rétention J+1 +5pts · Conversion funnel +2pts",
+        metric: "Day-1 retention +5pts · Funnel conversion +2pts",
         description:
-          "Construit et piloté l'équipe produit mobile de 7 personnes. Déployé l'app aux États-Unis, mis en place le processus discovery-delivery, et amélioré les métriques clés de rétention et de conversion.",
-        tags: "E-commerce · Mobile · Rétention",
+          "Construction et structuration de l'équipe produit mobile (7 personnes) et mise en place d'un cycle continu discovery-delivery.\nDéploiement de l'application sur le marché américain et optimisation des principaux leviers produit : activation, rétention et conversion.\nL'exploitation des données et l'expérimentation assistée par IA ont permis d'améliorer la performance du funnel et l'engagement utilisateur.",
+        tags: "E-commerce · Growth · Retention",
         period: "2022–2024",
       },
       {
         company: "Salomon",
-        metric: "30% de 150K utilisateurs dormants réactivés — premier mois",
+        metric: "30% dormant users reactivated · 150K users targeted",
         description:
-          "Conçu et lancé un programme de fidélité aux États-Unis ciblant 150K utilisateurs dormants. Coordination cross-équipes Amer Sports et Salomon, intégration de données omnicanal dans les profils clients.",
-        tags: "Sport & lifestyle · Fidélité · Marché US",
-        period: "Via Wivoo · 2020–2022",
+          "Conception et lancement d'un programme de fidélité aux États-Unis ciblant 150 000 utilisateurs inactifs.\nCoordination des équipes du groupe Amer Sports pour connecter les données omnicanales et enrichir les profils clients.\n30 % des utilisateurs dormants ont été réactivés dès le premier mois.",
+        tags: "Sports retail · Loyalty · Customer data",
+        period: "2022",
       },
     ],
   },
 
   philosophy: {
     label: "Ma façon de travailler",
-    intro: "Pas une théorie. Une manière d'opérer.",
+    intro: "Pas un framework. Une manière d'opérer.",
     pillars: [
       {
-        title: "Construire le système, pas juste la feature.",
-        body: "Les organisations produit solides avancent avec rythme. Je mets en place les processus de discovery, de delivery et de priorisation avant d'écrire un roadmap — pour rendre le progrès visible et les décisions défendables.",
+        title: "Chaque pari commence par une hypothèse.",
+        body: "Une roadmap doit répondre à une question business. Je pars des outcomes pour orienter les décisions produit, garde les équipes concentrées sur ce qui compte, et rends les résultats visibles pour toute l'organisation.",
       },
       {
-        title: "Faire grandir les équipes.",
-        body: "Je coache les PMs à s'approprier leurs sujets end-to-end — avec la rigueur pour dire non, la clarté pour expliquer pourquoi, et la confiance pour aligner en haut. Mon rôle : donner le contexte, protéger le focus, m'effacer.",
+        title: "Construire le système, pas seulement la feature.",
+        body: "Les organisations produit solides avancent avec rythme et vélocité. Je mets en place les processus de discovery, de delivery et de priorisation en même temps que la roadmap, pour rendre le progrès visible et les décisions claires pour tous.",
       },
       {
-        title: "Chaque pari a une hypothèse.",
-        body: "Un roadmap doit répondre à une question business. Je travaille à rebours des outcomes, garde les équipes ancrées sur ce qui compte, et rends les résultats — bons ou mauvais — transparents pour toute l'organisation.",
+        title: "Faire grandir les personnes qui font grandir le produit.",
+        body: "Je coache les PMs pour qu'ils s'approprient leurs sujets de bout en bout : avec la rigueur de dire non, la clarté d'expliquer pourquoi, et la confiance de viser haut.",
       },
     ],
   },
