@@ -23,6 +23,15 @@ export default function Footer({ footer }: FooterProps) {
           >
             See how it&apos;s made.
           </a>
+          <a
+            href="https://www.flaticon.com/fr/icones-gratuites/interface-utilisateur"
+            title="interface utilisateur icônes"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[10px] text-[#A8A89A] hover:text-[#1C1C1A] transition-colors duration-150"
+          >
+            Icons by muhammad atho' — Flaticon
+          </a>
         </div>
       </div>
     </footer>

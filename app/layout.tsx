@@ -12,10 +12,33 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 })
 
-export const metadata: Metadata = {
+export const metadata = {
+  metadataBase: new URL("https://edouard-blondeau.com"),
+  title: {
+    default: "Edouard Blondeau — Product Leader",
+    template: "%s | Edouard Blondeau",
+  },
+  description:
+    "Senior product leader based in Paris. Building product organizations that create measurable business impact.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
   title: "Edouard Blondeau — Product Leader",
   description:
-    "Senior product leader based in Paris. 10 years building product organizations across e-mobility, e-commerce, and consulting.",
+    "Building product organizations that create measurable business impact.",
+  url: "https://edouard-blondeau.com",
+  siteName: "Edouard Blondeau",
+  images: [
+    {
+      url: "/og-image.jpg",
+      width: 1200,
+      height: 630,
+    },
+  ],
+  locale: "en_US",
+  type: "website",
+  },
 }
 
 export default function RootLayout({

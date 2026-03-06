@@ -202,7 +202,7 @@ const en: SiteContent = {
       "I've spent ten years building product, teams and systems; from zero to scaling. What drives me is the intersection of clarity and execution: getting teams aligned, products shipped, and making sure both the business and the user benefit. I also teach product management and growth at Panthéon-Sorbonne and Dauphine universities because the best way to understand something is to be able to explain it.",
     details:
       "Full-stack developer certificate (Le Wagon, 2019). French (native) · English (C1) · Spanish (B2).",
-    interests: "Cycling. Boxing. Ski touring. Guitar — 16 years.",
+    interests: "Cycling. Boxing. Ski touring. Guitar - 16 years.",
   },
 
   contact: {

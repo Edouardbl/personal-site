@@ -16,10 +16,9 @@ interface PhilosophyProps {
   }
 }
 
-function PillarContent({ num, title, body }: { num: string; title: string; body: string }) {
+function PillarContent({ title, body }: { title: string; body: string }) {
   return (
     <div className="-translate-y-1/2 max-w-[560px]">
-      <span className="text-[11px] uppercase tracking-[0.14em] text-[#A8A89A] mb-6 block">{num}</span>
       <p className="text-[20px] md:text-[24px] font-medium text-[#1C1C1A] mb-4 leading-[1.3] tracking-[-0.02em]">
         {title}
       </p>
@@ -92,7 +91,6 @@ export default function Philosophy({ philosophy }: PhilosophyProps) {
                 className="absolute left-0 right-0"
               >
                 <PillarContent
-                  num="01"
                   title={philosophy.pillars[0].title}
                   body={philosophy.pillars[0].body}
                 />
@@ -104,7 +102,6 @@ export default function Philosophy({ philosophy }: PhilosophyProps) {
                 className="absolute left-0 right-0"
               >
                 <PillarContent
-                  num="02"
                   title={philosophy.pillars[1].title}
                   body={philosophy.pillars[1].body}
                 />
@@ -116,7 +113,6 @@ export default function Philosophy({ philosophy }: PhilosophyProps) {
                 className="absolute left-0 right-0"
               >
                 <PillarContent
-                  num="03"
                   title={philosophy.pillars[2].title}
                   body={philosophy.pillars[2].body}
                 />
