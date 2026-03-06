@@ -23,6 +23,9 @@ export const metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: "/icon.png",
+  },
   openGraph: {
   title: "Edouard Blondeau — Product Leader",
   description:
