@@ -37,6 +37,8 @@ export default function Hero({ hero }: HeroProps) {
   const words = hero.headline.split(" ")
   const step = 0.65 / words.length
 
+  const sublineOpacity = useTransform(scrollYProgress, [0.65, 0.80], [0, 1])
+
   return (
     <section>
       <div ref={containerRef} style={{ height: "200vh" }}>
@@ -52,9 +54,12 @@ export default function Hero({ hero }: HeroProps) {
                 />
               ))}
             </h1>
-            <p className="mt-8 text-[15px] md:text-[16px] text-[#6B6B63] leading-[1.7] max-w-[420px]">
+            <motion.p
+              className="mt-8 text-[15px] md:text-[16px] text-[#6B6B63] leading-[1.7] max-w-[420px]"
+              style={{ opacity: sublineOpacity }}
+            >
               {hero.subline}
-            </p>
+            </motion.p>
           </div>
 
           <div className="max-w-[1080px] mx-auto w-full">

@@ -112,7 +112,7 @@ const en: SiteContent = {
         company: "Zeway",
         metric: "Conversion +6pts · Time-to-market −40%",
         description:
-          "Structured a product organization across 7 cities and aligned 4 cross-functional teams around a shared OKR roadmap.\nLed key product initiatives across pricing, churn reduction and marketplace expansion — including usage-based pricing and a second-hand sales channel built from scratch on Shopify in < 1 week.\nLeveraged data-driven discovery and AI-assisted user feedback analysis to accelerate product decisions and improve conversion.",
+          "Structured a product organization across 7 cities and aligned 4 cross-functional teams around a shared OKR roadmap.\nLed key product initiatives across pricing, churn reduction and marketplace expansion; including usage-based pricing and a second-hand sales channel built from scratch on Shopify in < 1 week.\nLeveraged data-driven discovery and AI-assisted user feedback analysis to accelerate product decisions and improve conversion.",
         tags: "e-Mobility · Pricing model · Product org",
         period: "2024–2025",
       },
@@ -189,7 +189,7 @@ const en: SiteContent = {
     ],
     teaching: {
       title: "Guest Lecturer",
-      org: "Paris 1 Panthéon-Sorbonne & Paris Dauphine Universities",
+      org: "Paris 1 Panthéon-Sorbonne & Paris-Dauphine Universities",
       period: "2018–present",
       description:
         "Designed and taught courses in Product Management, Growth-Hacking & No-Code, and Design Thinking. Mentored 300+ MSc students.",
@@ -199,10 +199,10 @@ const en: SiteContent = {
   about: {
     label: "About",
     short:
-      "I've spent ten years building product, teams and systems; from zero to scaling. What drives me is the intersection of clarity and execution: getting teams aligned, products shipped, and making sure both the business and the user benefit. I also teach product management and growth at Panthéon-Sorbonne and Dauphine universities because the best way to understand something is to be able to explain it.",
+      "I've spent ten years building product, teams and systems; from zero to scaling. What drives me is the intersection of clarity and execution: getting teams aligned, products shipped, and making sure both the business and the user benefit. I also teach product management and growth at Panthéon-Sorbonne and Paris-Dauphine universities; because the best way to understand something is to be able to explain it.",
     details:
       "Full-stack developer certificate (Le Wagon, 2019). French (native) · English (C1) · Spanish (B2).",
-    interests: "Cycling. Boxing. Ski touring. Guitar - 16 years.",
+    interests: "Cycling. Boxing. Ski touring. Guitar. Concerts.",
   },
 
   contact: {
@@ -331,10 +331,10 @@ const fr: SiteContent = {
   about: {
     label: "À propos",
     short:
-      "Dix ans à construire des équipes et des systèmes produit — du zéro au passage à l'échelle. Ce qui m'anime : l'articulation entre clarté et exécution — aligner les équipes, livrer les produits, et faire en sorte que l'entreprise et les utilisateurs en bénéficient. J'enseigne également le product management et le growth à la Sorbonne et à Paris Dauphine — parce que la meilleure façon de comprendre quelque chose est de savoir l'expliquer.",
+      "Dix ans à construire des équipes et des systèmes produit, de zéro au passage à l'échelle. Ce qui m'anime : l'articulation entre clarté et exécution, aligner les équipes, et faire en sorte que l'entreprise et les utilisateurs en bénéficient. J'enseigne également le product management et le growth à l'université Paris 1 Panthéon-Sorbonne et à Paris-Dauphine; parce que la meilleure façon de comprendre quelque chose est de savoir l'expliquer.",
     details:
       "Certificat développeur full-stack (Le Wagon, 2019). Français (natif) · Anglais (C1) · Espagnol (B2).",
-    interests: "Cyclisme. Boxe. Ski de randonnée. Guitare - 16 ans.",
+    interests: "Cyclisme. Boxe. Ski de randonnée. Guitare. Concerts.",
   },
 
   contact: {
