@@ -69,6 +69,8 @@ interface ContactContent {
   email: string
   linkedinHandle: string
   linkedinLabel: string
+  bookingLabel: string
+  bookingUrl: string
 }
 
 interface FooterContent {
@@ -212,6 +214,8 @@ const en: SiteContent = {
     email: "edouardbl@gmail.com",
     linkedinHandle: "edouard-blondeau",
     linkedinLabel: "linkedin.com/in/edouard-blondeau",
+    bookingLabel: "Book a 30-min call",
+    bookingUrl: "https://calendar.app.google/Rgw1CpfLjJwANwjf8",
   },
 
   footer: {
@@ -344,6 +348,8 @@ const fr: SiteContent = {
     email: "edouardbl@gmail.com",
     linkedinHandle: "edouard-blondeau",
     linkedinLabel: "linkedin.com/in/edouard-blondeau",
+    bookingLabel: "Réserver un appel de 30 min",
+    bookingUrl: "https://calendar.app.google/Rgw1CpfLjJwANwjf8",
   },
 
   footer: {

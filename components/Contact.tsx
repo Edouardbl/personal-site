@@ -17,6 +17,8 @@ interface ContactProps {
     email: string
     linkedinHandle: string
     linkedinLabel: string
+    bookingLabel: string
+    bookingUrl: string
   }
 }
 
@@ -38,8 +40,16 @@ export default function Contact({ contact }: ContactProps) {
 
         <div className="flex flex-col gap-4">
           <a
+            href={contact.bookingUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-3 bg-[#1C1C1A] text-[#FAFAF8] text-[13px] tracking-[0.04em] uppercase hover:opacity-75 transition-opacity duration-150 w-fit"
+          >
+            {contact.bookingLabel}
+          </a>
+          <a
             href={`mailto:${contact.email}`}
-            className="text-[16px] text-[#1C1C1A] hover:opacity-60 transition-opacity duration-150 w-fit"
+            className="text-[15px] text-[#6B6B63] hover:opacity-60 transition-opacity duration-150 w-fit mt-2"
           >
             {contact.email}
           </a>
